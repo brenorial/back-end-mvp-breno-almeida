@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 import os
 
 from model.base import Base
-from model.processo import Processo
+from model.aluno import Aluno
 
 db_path = "database/"
 

@@ -1,9 +1,9 @@
-from schemas.processo import (
-    ProcessoBuscaSchema,
-    ProcessoDelSchema,
-    ProcessoSchema,
-    ProcessoViewSchema,
-    ListagemDeProcessosSchema  
+from schemas.aluno import (
+    AlunoBuscaSchema,
+    AlunoDelSchema,
+    AlunoSchema,
+    AlunoViewSchema,
+    ListagemDeAlunosSchema  
 )
 
 from schemas.error import ErrorSchema
